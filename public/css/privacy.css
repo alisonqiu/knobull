@@ -3,35 +3,67 @@
   padding: 0;
 }
 
-
+/*
 body
 {
   /* background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img4.jpg); */
- /* background-image: url(../images/privacy-picture.png);*/
+/*
+    background-image: url(../images/sunset.png);
   height: 100vh;
   background-size: cover;
   background-position: center;
 }
+*/
 
-
-
-.top-header {
-  padding: 1em .5em;
-  background-image: url(../images/privacy-picture.png);
-  text-align:center;
-  vertical-align: text-top;
-  color: white;
-  font-size: 7vw;
-  font-family: Arial, Helvetica, sans-serif;
+section {
+  padding: 10em 2em;
 }
-
-
+    
 p   {
-  color: black;
+  color: bdark grey;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   vertical-align: text-bottom;
- /* text-shadow: 1px 1px;*/
-  top: 50px;
-  transform: translateY(65px);
+}
+
+
+.header_img {
+    background-image: url(../images/sunset.jpg);
+    position: relative;
+    background-color: var(--clr-dark);
+    background-size: cover;
+    color: var(--clr-light);
+     width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+
+
+.header_title{
+    background-color: rgba(0,0,0, 0.3);
+    padding: 15px;
+    border: 5px solid white;
+  text-align:center;
+  vertical-align: text-top;
+  color: white;
+  font-size: 50px;
+  font-size: 5.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+}
+
+.para_body {
+    background-color: var(--clr-dark);
+      
+    
+  }
+
+
+.para_body_info {
+
 }
