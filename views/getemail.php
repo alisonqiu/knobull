@@ -10,6 +10,7 @@ if (isset($_POST['submit'])) {
    $headers = "From: ".$mailFrom;
    $txt = "You have received an email from ".$name.".\n\n".$message;
 
-   mail();
+   mail($mailTo,$subject, $txt, $headers );
+   header("Location: contact.ejs?mailsend");
 
 }
