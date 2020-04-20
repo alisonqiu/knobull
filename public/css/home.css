@@ -6,19 +6,23 @@ body{
 .container {
     position: relative;
     text-align: center;
-    color: white;
+    background-color: #67ADF3 ;
 }
-/*
+
 .container-fluid {
     position: relative;
     text-align: left;
     background-color: #FFFFFF;
+
 }
-*/
 
 
 .row {
- background-color: white;
+    background-color: #67ADF3;
+}
+
+.col-md-12 /*col-sd-12 col-xs-12 col-lg-12*/ {
+ background-color: white ;
 }
 
 
@@ -47,6 +51,7 @@ body{
 }
 */
 .a {
+     background-color: #FFFFFF;
     text-align: center;
     font-size:15px
 }
