@@ -173,7 +173,7 @@
     -->
 
 <head>
-
+  <script src="https://smtpjs.com/v3/smtp.js"></script>  
 <body>
 
         <div class="container">
@@ -191,7 +191,7 @@
                   <p>  <br />
                    </p>
                   <div class="column">
-                    <form action="https://formspree.io/lbentley@organizationtransitionsinc.com" method="POST">
+                    <form method="POST">
                       <label for="fname">First Name</label>
                       <input type="text" id="fname" name="firstname" placeholder="Your name..">
                       <label for="lname">Last Name</label>
@@ -200,11 +200,27 @@
                       <input type="text" id="Email" name="Email" placeholder="Your Email..">
                       <label for="subject">Message</label>
                       <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-                      <input type="submit" value="Submit">
+                      <input type="button" value="Send Email" onclick="sendEmail()">
                     </form>
                   </div>
                 </div>
               </div>
+<script>
+ function sendEmail() {
+	Email.send({
+    SecureToken : "e52c8321-cbc3-45ac-819a-02f72b4bdf2b",
+    To : 'josegan73sw@gmail.com',
+    From : "will56ww@gmail.com",
+    Subject : "Test Email",
+    Body : "<html><h2>Header</h2><strong>Bold text</strong><br></br><em>Italic</em></html>"
+    }).then(
+        message => alert("mail sent successfully")
+    );
+}
+</script>
+
+
+
 
 </body>
 
