@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html  lang="en">
 
 <head>
@@ -169,13 +169,18 @@
      <div class="search-input ">
       <center>
     <!--  <a ng-href="#/learn" style="color: #777777" >Learning Center</a> -->
-      <a href="https://www.linkedin.com/today/author/lynnhbentley?trk=prof-sm" style="color: #777777" >Learning Center Blog</a>
+          <div class="blog-container">
+              <!-- <a class="blog" href="https://www.linkedin.com/today/author/lynnhbentley?trk=prof-sm" style="color: #777777> -->
+              <a class="blog" href="https://www.linkedin.com/today/author/lynnhbentley?trk=prof-sm">
+                <img src="images/See_Blog_Design_small.png" class="blog_design" alt="picture" />    
+                      <p class="blogtext" style="font-size: 48px;color: #67ADF3;position: absolute;top: 50%;
+                        left: 50%;transform: translate(-50%, -50%);">
+                        See<br />Blog</p>
+              </a>
+          </div>
      </center>
-
    </div>
 </div>
-
-
 <!-- Search -->
 <div ng-hide="hide" class="left" >
   <div class="container-fluid" >
@@ -272,7 +277,7 @@
   <img src="images/rainbow.jpg" alt="blogimage" style="width:75%;"/>
 </div>
 
-<div class="a"><small>Research Is A Search For Truth</small></div>
+<div class="bottom-text"><small>Research Is A Search For Truth</small></div>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>

@@ -1,58 +1,91 @@
-*   {
-  margin: 0;
-  padding: 0;
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #5da0e3;
 }
 
+body {
+    background-color: #5da0e3;
+}
 
 section {
   padding: 10em 2em;
 }
 
-p   {
-  color: bdark grey;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  vertical-align: text-bottom;
- /* text-shadow: 1px 1px;*/
- 
+p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: text-bottom;
+    /* text-shadow: 1px 1px;*/
+    color: white;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
-.header_img {
-  background-image: url(../images/IMG-2186.JPG);
-  position: relative;
-  background-color: var(--clr-dark);
-  background-size: cover;
-  width: 100vw;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  color: var(--clr-light);
-  
-
+.topheader_img {
+    background-color: #5da0e3;
+    position: relative;
+    background-size: cover;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    color: var(--clr-light);
 }
 
+.subheader_img {
+    background-image: url(../images/Hike_Dog_Lake.JPG);
+    position: relative;
+    background-color: var(--clr-dark);
+    background-size: cover;
+    width: 100vw;
+    height: 750px;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    color: var(--clr-light);
+}
 
+.sh_text {
+    color: white;
+    font-size: 64px;
+    background-color: var(--clr-dark);
+    letter-spacing: 2px;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
 
 .header_title{
    /* background-color: rgba(0,0,0, 0.3);*/
-    padding: 15px;
-  text-align:center;
+  padding: 15px;
+  text-align:left;
   vertical-align: text-top;
   color: white;
   font-size: 65px;
   font-size: 6.5vw;
   font-family: sans-serif,Arial, Helvetica, ;
-  width: 50%;
+  width: 90%;
   height: 50%;
   margin: 0 auto;
 }
 
+hr {
+    display: block;
+    overflow: hidden;
+    height: 10px;
+    background-color: white;
+    color: white;
+    border-color: white;
+    width: 1000px;
+    margin-left: 70px;
+}
+
 .para_body {
-    background-color: var(--clr-dark);
-      
-    
-  }
+    background-color: #5da0e3;
+}
 
 .para_body_info {
 

@@ -1,12 +1,12 @@
 body{
-    background-color: #67ADF3 ;
+    background-color: white ;
 }
 
 
 .container {
     position: relative;
     text-align: center;
-    background-color: #67ADF3 ;
+    background-color: white;
 }
 
 .container-fluid {
@@ -15,18 +15,43 @@ body{
     background-color: #FFFFFF;
 
 }
+.blog_design {
+    width: 40%;
+}
 
+.blogtext {
+    font-size: 48px;
+    color: #67ADF3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.blogtext:hover {
+    color: #9ecfff;
+    text-shadow: 2px 2px #67ADF3;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.blog-container {
+    position: relative;
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 
 .row {
-    background-color: #67ADF3;
+    background-color: white;
 }
 
 .col-md-12 /*col-sd-12 col-xs-12 col-lg-12*/ {
  background-color: white ;
 }
 
-
-   
 .centered {
     position: absolute;
     top: 15%;
@@ -40,18 +65,18 @@ body{
     max-width: 600px;
     height: auto;
 }
-/*
+
 .form-control{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-
-
+    height: 50px;
 }
-*/
-.a {
-     background-color: #FFFFFF;
+
+.bottom-text {
+    background-color: #FFFFFF;
     text-align: center;
-    font-size:15px
+    font-size: 15px;
+    font-family: font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
 }
