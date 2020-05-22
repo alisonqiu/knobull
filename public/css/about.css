@@ -1,11 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #5da0e3;
+    background-color: #67ADF3;
 }
 
 body {
-    background-color: #5da0e3;
+    background-color: #67ADF3;
 }
 
 section {
@@ -24,7 +24,7 @@ p {
 }
 
 .topheader_img {
-    background-color: #5da0e3;
+    background-color: #67ADF3;
     position: relative;
     background-size: cover;
     width: 100vw;
@@ -81,10 +81,24 @@ hr {
     border-color: white;
     width: 1000px;
     margin-left: 70px;
+    padding-bottom: 0px;
+}
+
+.header-text {
+    padding: 15px;
+    margin: auto;
+    text-align: inherit;
+    letter-spacing: 1px;
+    vertical-align: text-top;
+    color: white;
+    font-size: 36px;
+    font-size: 3vw;
+    width: 80%;
+    height: auto;
 }
 
 .para_body {
-    background-color: #5da0e3;
+    background-color: #67ADF3;
 }
 
 .para_body_info {
