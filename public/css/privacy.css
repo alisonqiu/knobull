@@ -3,24 +3,27 @@
   padding: 0;
 }
 
-/*
-body
-{
-  /* background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img4.jpg); */
-/*
-    background-image: url(../images/sunset.png);
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
+
+body {
+    /* background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img4.jpg); */
+    background-color: #67ADF3;
 }
-*/
+
+hr {
+    height: 10px;
+    background-color: white;
+    color: white;
+    border-color: white;
+    width: 65%;
+
+}
 
 section {
   padding: 10em 2em;
 }
     
 p   {
-  color: bdark grey;
+  color: white;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   vertical-align: text-bottom;
@@ -40,23 +43,32 @@ p   {
  /* object-fit:cover; */ 
 }
 
+.header_title {
+    /* background-color: rgba(0,0,0, 0.3);*/
+    padding: 15px;
+    text-align: center;
+    vertical-align: text-top;
+    color: white;
+    font-size: 65px;
+    font-size: 6.5vw;
+    font-family: sans-serif, Arial, Helvetica,;
+    width: 90%;
+    height: 50%;
+    margin: 0 auto;
+}
+
 .header-text {
     padding: 15px;
     margin: auto;
-    text-align: inherit;
+    text-align: center;
     letter-spacing: 1px;
     vertical-align: text-top;
-    color: #67ADF3;
+    color: white;
     font-size: 36px;
     font-size: 3vw;
     width: 80%;
     height: auto;
 }
-    
- 
-  
-    
- 
 
 .para_body {
     background-color: var(--clr-dark);
