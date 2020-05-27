@@ -6,7 +6,7 @@
 
 body {
     /* background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img4.jpg); */
-    background-color: #67ADF3;
+    background-color: #00aeff;
 }
 
 hr {
@@ -79,4 +79,8 @@ p   {
 
 .para_body_info {
 
+}
+
+.top-text {
+    text-shadow: 1.5px 1.5px #e6f7ff;
 }

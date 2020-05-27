@@ -1,11 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #67ADF3;
+    background-color: #00aeff;
 }
 
 body {
-    background-color: #67ADF3;
+    background-color: #00aeff;
 }
 
 section {
@@ -24,7 +24,7 @@ p {
 }
 
 .topheader_img {
-    background-color: #67ADF3;
+    background-color: #00aeff;
     position: relative;
     background-size: cover;
     width: 100vw;
@@ -36,12 +36,12 @@ p {
 }
 
 .subheader_img {
-    background-image: url(../images/Hike_Dog_Lake.png);
+    background-image: url(../images/MountainTop.jpg);
     position: relative;
     background-color: var(--clr-dark);
     background-size: cover;
     width: 100vw;
-    height: 750px;
+    height: 65vw;
     left: 50%;
     right: 50%;
     margin-left: -50vw;
@@ -54,7 +54,7 @@ p {
     font-size: 64px;
     background-color: var(--clr-dark);
     letter-spacing: 2px;
-    text-shadow: 2px 2px black;
+    text-shadow: 1.5px 1.5px #e6f7ff;
     text-align: center;
 }
 
@@ -98,7 +98,7 @@ hr {
 }
 
 .para_body {
-    background-color: #67ADF3;
+    background-color: #00aeff;
 }
 
 .para_body_info {
