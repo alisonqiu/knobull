@@ -36,7 +36,7 @@ p {
 }
 
 .subheader_img {
-    background-image: url(../images/MountainTop.jpg);
+    background-image: url(../images/MountainTop.png);
     position: relative;
     background-color: var(--clr-dark);
     background-size: cover;
