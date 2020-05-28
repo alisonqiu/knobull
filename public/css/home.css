@@ -1,5 +1,6 @@
 body{
     background-color: white ;
+
 }
 
 
@@ -20,26 +21,23 @@ body{
 }
 
 .blogtext {
-    font-size: 48px;
-    color: #67ADF3;
+    /*font-size: 48px;*/
+    /*color: #67ADF3;*/
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: Raleway;
+    letter-spacing: 4.5px;
+    font-size: 4em;
 }
 
-.blogtext:hover {
-    color: #9ecfff;
-    text-shadow: 2px 2px #67ADF3;
-}
-
-a:hover {
-    text-decoration: none;
+.blog:hover {
+    color: #67ADF3;
 }
 
 .blog-container {
     position: relative;
-    background-color: white;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -75,8 +73,10 @@ a:hover {
 }
 
 .bottom-text {
-    background-color: #FFFFFF;
     text-align: center;
-    font-size: 15px;
-    font-family: font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+    font-size: 16px;
+    margin: 20px;
+    font-family: Raleway, Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+    bottom: 0%;
+    position: fixed;
 }
