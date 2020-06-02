@@ -27,7 +27,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: Raleway;
+    font-family: Sirin Stencil, Arial;
     letter-spacing: 4.5px;
     font-size: 4em;
 }
@@ -40,6 +40,7 @@ body{
     position: relative;
     padding-top: 60px;
     padding-bottom: 60px;
+    margin: 20px auto;
 }
 
 .row {
