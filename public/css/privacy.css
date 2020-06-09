@@ -4,6 +4,7 @@
 }
 
 img {
+    background-color: #00aeff;
     display: block;
     height: 30vw;
     width: 30vw;
@@ -19,37 +20,25 @@ body {
     font-family: Montserrat, sans-serif;
 }
 
-hr {
-    height: 10px;
-    background-color: white;
-    color: white;
-    border-color: white;
-    width: 65%;
-
+header {
+    /* background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img4.jpg); */
+    background-color: #00aeff;
+    font-family: Montserrat, sans-serif;/*
+    margin-left: auto;
+    margin-right: auto;*/
+    
+    
 }
 
 section {
   padding: 10em 2em;
 }
 
-.header_img {
-    background-image: url(../images/post.jpg);
-    position: relative;
-    background-color: var(--clr-dark);
-    background-size: cover;
-    color: var(--clr-light);
-    width: 100vw; 
-     height: 100vw;
-/*  left: 50%;
-  right: 50%;*/
- /* object-fit:cover; */ 
-}
-
 .header_title {
     background-color: var(--clr-dark);
     color: white;
-    font-size: 65px;
-    font-size: 6.5vw;
+    font-size: 75px;
+    font-size: 7.5vw;
     text-align: center;
 }
 
@@ -58,7 +47,7 @@ section {
     background-color: var(--clr-dark);
     letter-spacing: 1px;
     text-align: center;
-    font-size: 3.5vw;
+    font-size: 4.5vw;
     left: 50%;
 }
 
@@ -74,23 +63,28 @@ section {
     width: 80%;
     height: auto;
 }
-
+/*
 .para_body {
-    background-color: var(--clr-dark);
+    background-color: #00aeff;
     padding-top: 10%;
     text-align: left;
     font-size: 1.5vw;
     
 }
+*/
 
 p {
+    background-color: white;
     letter-spacing: 1px;
-    color: white;
-    padding-top: 2%;
+    color: black;
+    padding: 2px 2px 2px 2px;
 }
 
 
 .para_body_info {
-    padding: 0;
+    background-color: white;
+    font-size: 23px;
+    
+    padding: 5px 5px 5px 5px;
     margin: 0 auto;
 }
