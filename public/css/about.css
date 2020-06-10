@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #00aeff;
+  /*  background-color: #00aeff; */
 }
 
 body {
@@ -10,18 +10,30 @@ body {
 }
 
 section {
-    padding: 15%;
+    padding: 10em 2em;
+   /* padding: 15%; */
 }
 
+
 p {
+    background-color: white;
+    letter-spacing: 1px;
+    color: black;
+    padding: 2px 2px 2px 2px;
+}
+
+
+/*
+p {
+    background-color: white;
     font-size: 1.5vw;
     vertical-align: text-bottom;
-    color: white;
+    color: black;
     text-align: left;
     padding-top: 2%;
     letter-spacing: 1px;
 }
-
+*/
 .topheader_img {
     background-color: var(--clr-dark);
     position: relative;
@@ -72,8 +84,8 @@ p {
 .header_title {
     background-color: var(--clr-dark);
     color: white;
-    font-size: 65px;
-    font-size: 6.5vw;
+    font-size: 75px;
+    font-size: 7.5vw;
     text-align: center;
 }
 
@@ -86,14 +98,18 @@ p {
     background-color: var(--clr-dark);
     position: relative;
 }
-
+/*
 .para_body {
-    background-color: #00aeff;
+    background-color: white;
 }
-
+*/
 .para_body_info {
-
-
+    background-color: white;
+    font-size: 23px;
+    
+    padding: 5px 5px 5px 5px;
+    margin: 0 auto;
+    
 
 }
 /*

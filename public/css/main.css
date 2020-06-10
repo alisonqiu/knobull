@@ -196,11 +196,14 @@ background-color:#00CCFF
 
 
 .header__button, .header__button--menu, .header__button:visited, .header__button--menu:visited, .header__button:focus, .header__button--menu:focus,  .header__button--menu:hover {
-    color: #a5a5a5;
+   color: #a5a5a5;  
+   color: black;
+
 }
 
 .input-group-addon:hover{
-  background-color: #99E6E6;
+  background-color: #99E6E6; 
+
 
 
 }
