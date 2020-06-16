@@ -1,10 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\data",
+    "\\data\\db",
     "\\public",
-    "\\public\\css",
+    "\\public\\scripts\\controllers",
+    "\\public\\scripts\\lib",
     "\\views"
   ],
-  "SelectedNode": "\\public\\css\\privacy.css",
+  "SelectedNode": "\\views\\contact.ejs",
   "PreviewInSolutionExplorer": false
 }
