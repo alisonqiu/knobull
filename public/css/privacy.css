@@ -16,16 +16,21 @@ img {
 
 body {
     /* background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img4.jpg); */
-    background-color: #00aeff;
+    background-color: white;
     font-family: Montserrat, sans-serif;
 }
 
 header {
     /* background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img4.jpg); */
     background-color: #00aeff;
-    font-family: Montserrat, sans-serif;/*
-    margin-left: auto;
-    margin-right: auto;*/
+    font-family: Montserrat, sans-serif;
+    position: relative;
+    width: 100vw;
+   
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
     
     
 }
