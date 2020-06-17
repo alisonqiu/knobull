@@ -4,8 +4,6 @@
     "\\data",
     "\\data\\db",
     "\\public",
-    "\\public\\scripts\\controllers",
-    "\\public\\scripts\\lib",
     "\\views"
   ],
   "SelectedNode": "\\views\\contact.ejs",
