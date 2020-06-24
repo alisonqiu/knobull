@@ -20,6 +20,16 @@ body {
     font-family: Montserrat, sans-serif;
 }
 
+.kno {
+    background-image: url(../images/knobullpic.JPG);
+    
+    text-align: center;
+    width: 10vw;
+    height: 2vw;
+   right: -50%;
+   
+}
+
 header {
     /* background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img4.jpg); */
     background-color: #00aeff;
@@ -36,7 +46,7 @@ header {
 }
 
 section {
-  padding: 10em 2em;
+  padding: 1em 0em;
 }
 
 .header_title {
@@ -82,14 +92,16 @@ p {
     background-color: white;
     letter-spacing: 1px;
     color: black;
-    padding: 2px 2px 2px 2px;
+    
+    
+    font-family: Stencil-FS-Regular;
 }
 
 
 .para_body_info {
     background-color: white;
     font-size: 23px;
-    
-    padding: 5px 5px 5px 5px;
+    /*font-family: Kana-Sans-Medium;*/
+    font-family: Stencil-FS-Regular;
     margin: 0 auto;
 }
