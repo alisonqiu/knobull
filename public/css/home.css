@@ -35,7 +35,7 @@ body{
     font-size: 2.5em;
 }
 
-.blog:hover {
+.blog: hover {
     color: #67ADF3;
 }
 
@@ -48,6 +48,8 @@ body{
 
 .row {
     background-color: white;
+    /*float: left;
+    text-align: center;*/
 }
 
 .col-md-12 /*col-sd-12 col-xs-12 col-lg-12*/ {
@@ -69,11 +71,14 @@ body{
 }
 
 .form-control{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+    margin-left: 5.5%;
+    /*margin: auto;*/
+    width: 80%;
     height: 50px;
+    max-width: 1200px;
+    float: left;
+    padding: 10px;
+    display: inline-block;
 }
 
 .bottom-text {
@@ -83,4 +88,20 @@ body{
     font-family: Raleway, Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
     bottom: 0%;
     position: fixed;
+}
+
+.search_button {
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    color: #3eabec;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.search_button:hover {
+  /*background: #94c2eb;*/
+  background: #b0cfeb;
 }
