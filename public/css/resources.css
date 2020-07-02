@@ -35,20 +35,10 @@ p {
     letter-spacing: 1px;
 }
 */
-.topheader_img {
-    background-color: var(--clr-dark);
-    position: relative;
-    background-size: cover;
-    width: 100vw;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-}
+
 
 .subheader_img {
     background-image: url(../images/MountainTop.png);
-    background-color: var(--clr-dark);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -59,39 +49,42 @@ p {
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
-    color: var(--clr-light);
 }
-
 .sh_text {
     color: white;
     background-color: var(--clr-dark);
     letter-spacing: 1px;
-    text-align: center;
+    
     margin-left: 60%;
     width: 100%;
     font-size: 4.5vw;
+    text-align: center;
+    
     
 }
-
-.header-block {
-    background-color: var(--clr-dark);
-    /*display: block;
-    position: relative;*/
+.header-block{
+    display: block;
+    position: relative;
     position: absolute;
     top: 50%;
     left: 50%;
+    width: 40vw;
     transform: translate(-50%, -50%);
-
+    text-align: center;
 
     
 }
 
 .header_title {
-    background-color: var(--clr-dark);
+    
+   
     color: white;
     font-size: 65px;
     font-size: 6.5vw;
-    text-align: center;
+    width: 67vw;
+   /* height: 10vw;*/
+   
+    
 }
 
 .toplogo {
@@ -103,11 +96,7 @@ p {
     background-color: var(--clr-dark);
     position: relative;
 }
-/*
-.para_body {
-    background-color: white;
-}
-*/
+
 .para_body_info {
     background-color: white;
     font-size: 23px;
@@ -117,21 +106,3 @@ p {
     
 
 }
-/*
-.top-header {
-   
-  text-align:center;
-  vertical-align: text-top;
-  color: black;
-  font-size: 7vw;
-  font-family: Arial, Helvetica, sans-serif;
-}
-*/
-/*
-
-
-.sub-header {
-  color: white;
-}
-
-*/

@@ -30,6 +30,7 @@ var home = require('./routes/home');
 var about = require('./routes/about');
 var contact = require('./routes/contact');
 var privacy = require('./routes/privacy');
+var resources = require('./routes/resources');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -50,6 +51,7 @@ app.use('/users', users);
 app.use('/about', about);
 app.use('/privacy', privacy);
 app.use('/contact', contact);
+app.use('/resources',resources );
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -84,3 +86,4 @@ app.use(function(err, req, res, next) {
 
 
 module.exports = app;
+
