@@ -47,7 +47,7 @@ p {
     margin-left: 70%;
    
     
-    font-size: 3.0vw;
+    font-size: 3.2vw;
  
    
 }
@@ -58,7 +58,7 @@ p {
   text-align: center;
     color: white;
     font-size: 75px;
-    font-size: 7.5vw;
+    font-size: 6.8vw;
   
     
     
@@ -82,4 +82,18 @@ p {
     margin: 0 auto;
     
 
+}
+
+.header-block {
+    background-color: var(--clr-dark);
+    /*display: block;
+    position: relative;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+
+    
 }
