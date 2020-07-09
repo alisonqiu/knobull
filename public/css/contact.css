@@ -10,7 +10,9 @@ body{
 
 .sh_text {
   text-align:center; 
-  font-size: 14px;
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .jumbotron
