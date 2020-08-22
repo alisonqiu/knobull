@@ -3,8 +3,10 @@
     "",
     "\\public",
     "\\public\\css",
+    "\\public\\scripts\\controllers",
+    "\\routes",
     "\\views"
   ],
-  "SelectedNode": "\\views\\about.ejs",
+  "SelectedNode": "\\public\\css\\resources.css",
   "PreviewInSolutionExplorer": false
 }
