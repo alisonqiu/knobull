@@ -31,6 +31,7 @@ var about = require('./routes/about');
 var contact = require('./routes/contact');
 var privacy = require('./routes/privacy');
 var resources = require('./routes/resources');
+var studentnews = require('./routes/studentnews');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -51,7 +52,8 @@ app.use('/users', users);
 app.use('/about', about);
 app.use('/privacy', privacy);
 app.use('/contact', contact);
-app.use('/resources',resources );
+app.use('/resources', resources);
+app.use('/studentnews', studentnews);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

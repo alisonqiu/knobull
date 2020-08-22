@@ -55,188 +55,168 @@
     </head>
 
 
-<<<<<<< HEAD
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a ng-href="/" onclick="window.location.reload();" class="c-menu__link">Home</a>
         <a href="/about">About Us</a>
-        <a href="/messageboard">Message Board</a>
+        <a href="https://knobull-messageboard.herokuapp.com/" target="_blank">Message Board</a>
         <a href="https://www.linkedin.com/today/author/lynnhbentley?trk=prof-sm">Blog</a>
         <a href="/contact">Contact</a>
         <a href="/privacy">Privacy</a>
         <a href="/resources">Resources</a>
-        <a href="http://www.articlegeek.com/index.htm">Student News</a>
+        <a href="/studentnews">Student News</a>
     </div>
-=======
-            <div id="mySidenav" class="sidenav">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <a ng-href="/" onclick="window.location.reload();" class="c-menu__link">Home</a>
-                    <a href="/about">About Us</a>
-                    <a href="https://knobull-messageboard.herokuapp.com/" target="_blank">Message Board</a>
-                    <a href="https://www.linkedin.com/today/author/lynnhbentley?trk=prof-sm">Blog</a>
-                    <a href="/contact">Contact</a>
-                    <a href="/privacy">Privacy</a>
-                    <a href="/resources">Resources</a>
-                  </div>
->>>>>>> 654a5985520a608f095574d48e94c22fbc9b193b
-                  
-                  
-                  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-                  
-                  
-                  
 
-    
 
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+
+
+
+
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
                     <!--    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
                     <!-- <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Menu</a> -->
+                    <!-- /#wrapper -->
+                    <!-- BEGIN javascript for nav bar -->
+                    <script>
+                        function openNav() {
+                        document.getElementById("mySidenav").style.width = "250px";
+                        document.getElementById("main").style.marginLeft = "250px";
+                        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+                        }
+                    </script>
 
-    <!-- /#wrapper -->
+                    <script>
+                        function closeNav() {
+                        document.getElementById("mySidenav").style.width = "0";
+                        document.getElementById("main").style.marginLeft = "0";
+                        document.body.style.backgroundColor = "white";
+                        }
+                    </script>
 
-    <!-- BEGIN javascript for nav bar -->
-    <script>
-        function openNav() {
-        document.getElementById("mySidenav").style.width = "250px";
-        document.getElementById("main").style.marginLeft = "250px";
-        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-        }
-    </script>
+                    <!-- END javascript for nav bar-->
+                    <!--main view for angular js-->
+                    <!-- <script src="Slide-Push-Menus-master/js/dist/menu.js"></script> -->
+                    <script>
+                        /**
+                        * Slide right instantiation and action.
+                        */
+                        var slideRight = new Menu({
+                        wrapper: '#o-wrapper',
+                        type: 'slide-right',
+                        menuOpenerClass: '.c-button',
+                        maskId: '#c-mask'
+                        });
 
-    <script>
-        function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
-        document.getElementById("main").style.marginLeft = "0";
-        document.body.style.backgroundColor = "white";
-        }
-    </script>
+                        var slideRightBtn = document.querySelector('#c-button--slide-right');
 
-    <!-- END javascript for nav bar-->
-
-    <!--main view for angular js-->
-    <!-- <script src="Slide-Push-Menus-master/js/dist/menu.js"></script> -->
-    <script>
-      /**
-       * Slide right instantiation and action.
-       */
-      var slideRight = new Menu({
-        wrapper: '#o-wrapper',
-        type: 'slide-right',
-        menuOpenerClass: '.c-button',
-        maskId: '#c-mask'
-      });
-
-      var slideRightBtn = document.querySelector('#c-button--slide-right');
-
-      slideRightBtn.addEventListener('click', function(e) {
-        //alert("Santosh");
-        e.preventDefault;
-        slideRight.open();
-      });
-    </script>
+                        slideRightBtn.addEventListener('click', function(e) {
+                        //alert("Santosh");
+                        e.preventDefault;
+                        slideRight.open();
+                        });
+                    </script>
 
 
 
-    <script src="https://code.jquery.com/jquery-latest.js"></script>
-  <script>
-  $(document).ready(function(){
-    $.getJSON("https://www.faroo.com/api?q=google&start=1&l=en&src=web&f=json",
-        function(data){
-          $.each(data.results, function(i,item){
-			jQuery('<div/>', {  text: item.title }).appendTo('#results');
-          });
-        });
-  });
-  </script>
+                    <script src="https://code.jquery.com/jquery-latest.js"></script>
+                    <script>
+                        $(document).ready(function(){
+                        $.getJSON("https://www.faroo.com/api?q=google&start=1&l=en&src=web&f=json",
+                        function(data){
+                        $.each(data.results, function(i,item){
+                        jQuery('<div/>', {  text: item.title }).appendTo('#results');
+                        });
+                        });
+                        });
+                    </script>
 
 
-  <body>
-      <header>
-          <!--  <h1 class="top-header">ABOUT KNOBULL, Inc. </h1>  -->
-      </header>
-      <section class="subheader_img">
-          <div class="header-block">
-              <h1 class="header_title">About Knobull</h1>
-              <img src="images/blue-bg-logo.png" class="toplogo" />
-              <h2 class="sh_text">
-                  Setting a high <br />standard of trust!
-              </h2>
-          </div>
-      </section>
-      <!-- <h4 class="sub-header">ABOUT KNOBULL, Inc. </h4> -->
-      <section class="para_body">
-          <div class="para_body_info">  
-              <p> <br> <br> <br> </p>
-              <p>A team of CSE students and seasoned Internet venture leaders created the Knobull research engine web app because your ability to gain access to critical information is important to us. We feature the Learning Center Blog on our homepage to deliver timely articles designed to strengthen academic research skills. Powered by "Semantic" Metasearch technology that works within the cloud, Knobull efficiently captures enjoyable activities and research results from leading search engines including Bing, Yahoo and DuckDuckGo so that students can find the information they want quickly. (Even though this level of search engine functionality will not be available during the initial testing phase of our service, we plan to achieve all stated research engine capabilities at the time of full launch.)</p>
-              <p>Knobull connects to them, determines which results are most critical to your search and returns them to you. This technology, using intelligent agents that eliminate the limitations of most existing search engines, insures that you securely receive results in a continuing flow format that are more complete than any one search engine can provide.</p>
-              <p>This streamlined search message was so critical that it drove the selection of our name! "No Bull" is dumped on you when you search and system efficiency coupled with targeted searching, supported by our Learning Center, helps students to "Know More". We don’t capture or store any personal user data and don’t sell this data. This is exactly what our technology and Learning Center make happen - better understanding of research techniques to securely capture top priority results. </p>
-              <p>The Knobull search success is under the watchful eyes of a perky bull dog puppy who wants to learn and grow. To strengthen students' research success, the Learning Center lets users share search/research success stories, receive answers to posted questions from fellow students and experts and read useful research tool building articles. Use these combined tools to Knobull it and become a "research specialist."</p>
-              <p>Knobull delivers quality coursework research, report writing and academic success factors content to the student population that matters on a weekly basis - and makes it go viral. Based in US, we will reach an engaged domestic audience of more than 1 million students each week, and every time we post something, thousands of students are talking about it across Linkedin and other social media platforms.</p>
-              <p>We offer native advertising design and  delivery for like-minded customers who want to help build valued research tools for the student population and get their brand and content seen by thousands of passionate academic research enthusiasts.</p></h6>
-          </div>
-      </section>
-  </body>
+                    <body>
+                        <header>
+                            <!--  <h1 class="top-header">ABOUT KNOBULL, Inc. </h1>  -->
+                        </header>
+                        <section class="subheader_img">
+                            <div class="header-block">
+                                <h1 class="header_title">About Knobull</h1>
+                                <img src="images/blue-bg-logo.png" class="toplogo" />
+                                <h2 class="sh_text">
+                                    Setting a high <br />standard of trust!
+                                </h2>
+                            </div>
+                        </section>
+                        <!-- <h4 class="sub-header">ABOUT KNOBULL, Inc. </h4> -->
+                        <section class="para_body">
+                            <div class="para_body_info">
+                                <p> <br> <br> <br> </p>
+                                <p>A team of CSE students and seasoned Internet venture leaders created the Knobull research engine web app because your ability to gain access to critical information is important to us. We feature the Learning Center Blog on our homepage to deliver timely articles designed to strengthen academic research skills. Powered by "Semantic" Metasearch technology that works within the cloud, Knobull efficiently captures enjoyable activities and research results from leading search engines including Bing, Yahoo and DuckDuckGo so that students can find the information they want quickly. (Even though this level of search engine functionality will not be available during the initial testing phase of our service, we plan to achieve all stated research engine capabilities at the time of full launch.)</p>
+                                <p>Knobull connects to them, determines which results are most critical to your search and returns them to you. This technology, using intelligent agents that eliminate the limitations of most existing search engines, insures that you securely receive results in a continuing flow format that are more complete than any one search engine can provide.</p>
+                                <p>This streamlined search message was so critical that it drove the selection of our name! "No Bull" is dumped on you when you search and system efficiency coupled with targeted searching, supported by our Learning Center, helps students to "Know More". We don’t capture or store any personal user data and don’t sell this data. This is exactly what our technology and Learning Center make happen - better understanding of research techniques to securely capture top priority results. </p>
+                                <p>The Knobull search success is under the watchful eyes of a perky bull dog puppy who wants to learn and grow. To strengthen students' research success, the Learning Center lets users share search/research success stories, receive answers to posted questions from fellow students and experts and read useful research tool building articles. Use these combined tools to Knobull it and become a "research specialist."</p>
+                                <p>Knobull delivers quality coursework research, report writing and academic success factors content to the student population that matters on a weekly basis - and makes it go viral. Based in US, we will reach an engaged domestic audience of more than 1 million students each week, and every time we post something, thousands of students are talking about it across Linkedin and other social media platforms.</p>
+                                <p>We offer native advertising design and  delivery for like-minded customers who want to help build valued research tools for the student population and get their brand and content seen by thousands of passionate academic research enthusiasts.</p></h6>
+                            </div>
+                        </section>
+                    </body>
 
-<center>
-<dir-pagination-controls
-                    max-size="5"
-                    direction-links="true"
-                    boundary-links="true" >
-                </dir-pagination-controls>
-</center>
-
-
-
-<!-- /#page-content-wrapper -->
-
-</div>
-    <!-- end of main view -->
+                    <center>
+                        <dir-pagination-controls max-size="5"
+                                                 direction-links="true"
+                                                 boundary-links="true">
+                        </dir-pagination-controls>
+                    </center>
 
 
 
+                    <!-- /#page-content-wrapper -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+                </div>
+                <!-- end of main view -->
+                <!-- jQuery -->
+                <script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
+                <!-- Bootstrap Core JavaScript -->
 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular.min.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28//angular-route.min.js"></script>
-    <script src="scripts/app.js"></script>
-    <script src="scripts/controllers/main.js"></script>
-    <script src="scripts/controllers/about.js"></script>
-    <script src="scripts/controllers/contact.js"></script>
-    <script src="scripts/controllers/messageboard.js"></script>
-    <script src="scripts/controllers/blog.js"></script>
-    <script src="scripts/controllers/privacy.js"></script>
-    <script src="scripts/controllers/learn.js"></script>
-    <script src="scripts/controllers/SearchController.js"></script>
-    <script src="scripts/lib/dirPagination.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+                <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular.min.js"></script>
+                <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28//angular-route.min.js"></script>
+                <script src="scripts/app.js"></script>
+                <script src="scripts/controllers/main.js"></script>
+                <script src="scripts/controllers/about.js"></script>
+                <script src="scripts/controllers/contact.js"></script>
+                <script src="scripts/controllers/messageboard.js"></script>
+                <script src="scripts/controllers/blog.js"></script>
+                <script src="scripts/controllers/privacy.js"></script>
+                <script src="scripts/controllers/learn.js"></script>
+                <script src="scripts/controllers/SearchController.js"></script>
+                <script src="scripts/lib/dirPagination.js"></script>
+                <script src="js/bootstrap.min.js"></script>
 
-    <!--------Bower--->
+                <!--------Bower--->
 
-    <script src="bower_components/ng-table/dist/ng-table.min.js"></script>
-    <script src="bower_components/angular-route/angular-route.js"></script>
+                <script src="bower_components/ng-table/dist/ng-table.min.js"></script>
+                <script src="bower_components/angular-route/angular-route.js"></script>
 
-    <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
+                <!-- Menu Toggle Script -->
+                <script>
+                    $("#menu-toggle").click(function(e) {
+                    e.preventDefault();
+                    $("#wrapper").toggleClass("toggled");
+                    });
+                    $("#menu-close").click(function(e) {
+                    e.preventDefault();
+                    $("#wrapper").toggleClass("toggled");
+                    });
+                </script>
 
-      </div>
-    </div>
+            </div>
+        </div>
     </div>
     </div>
 

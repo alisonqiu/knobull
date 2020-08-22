@@ -16,6 +16,7 @@ section {
 
 
 p {
+    text-decoration: none;
     background-color: white;
     letter-spacing: 1px;
     color: black;
