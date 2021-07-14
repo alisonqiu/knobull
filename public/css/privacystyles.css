@@ -174,6 +174,7 @@ blockquote {
 b,
 strong {
   font-weight: bolder;
+  color: var(--blue)
 }
 
 small {
@@ -197,12 +198,12 @@ sup {
 }
 
 a {
-  color: #f4623a;
+  color: var(--blue);
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #d6370c;
+  color: #9d0cd6;
   text-decoration: underline;
 }
 
