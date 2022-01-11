@@ -71,8 +71,17 @@
                     <a href="/studentnews">Student News</a>
                   </div>
                  
-                  
-                  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                <div class = "header" style="
+                          display: flex;  
+                          align-items: center;">
+                <span id="navicon" onclick="openNav()">&#9776;</span>
+                <a href="https://www.linkedin.com/company/knobull-inc" style="
+                    margin-left: 85%;">
+                  <img src = "https://1000logos.net/wp-content/uploads/2017/03/Linkedin-Logo.png" style="
+                      width:10vw;
+                      min-width: 50px;">
+                </a>
+                </div>
                   
                   
                   
@@ -142,19 +151,29 @@
     <div class="text-center search-logo" >
       <p class="container-fluid">
         <center>
-          <a href="/"></a>
-        <img src="images/Doggy.jpg" class="img-responsive" alt="I'm a Bulldog" style=""></a>
+        <a href="/"></a>
+        <img src="images/Doggy.jpg" class="img-responsive" alt="I'm a Bulldog"></a>
       </center>
       </p>
     </div>
     <div class="row">
         <form method="get" action="https://refseek.com/search">
           <span>
-            <input type="text" name="q" class="form-control" placeholder="Search here" style="background-color:white"/>
+            <input type="text" name="q" class="form-control" id = "field" placeholder="Search here" style="background-color:white"/>
             <button type="submit" class="search_button"><i class="fa fa-search fa-2x"></i></button>
           </span>
         </form>
     </div>
+
+    <button id="clear">Clear Search Bar</button>
+    <script>
+      let input = document.getElementById("field")
+      const btn = document.getElementById("clear")
+      btn.addEventListener('click', () => {
+          input.value = "";
+          console.log("clear input")
+    });
+  </script>
       <div class="row search-input"  style="float:center">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <!-- <div class="input-group">

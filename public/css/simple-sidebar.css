@@ -103,3 +103,9 @@ body {
   .sidenav a {font-size: 15px;}
 }
 
+#navicon{
+    font-size:4vw;
+    cursor:pointer;
+    margin-left: 10px;
+    -webkit-margin-top-collapse: collapse;
+}

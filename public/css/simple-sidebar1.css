@@ -80,3 +80,10 @@ body {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+#navicon{
+    font-size:4vw;
+    cursor:pointer;
+    margin-left: 10px;
+    -webkit-margin-top-collapse: collapse;
+}

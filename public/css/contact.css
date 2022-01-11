@@ -88,7 +88,6 @@ input[type=submit]:hover {
 
 .column {
   float: right;
-  width: 50%;
   margin-top: 6px;
   padding: 20px;
 }
@@ -100,10 +99,9 @@ input[type=submit]:hover {
   clear: both;
 }
 
-body {
-/*  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img4.jpg); */
-}
-
-head {
-/*  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img4.jpg); */
+#navicon{
+  font-size:4vw;
+  cursor:pointer;
+  margin-left: 10px;
+  -webkit-margin-top-collapse: collapse;
 }

@@ -10206,3 +10206,10 @@ section.masthead {
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
 }
+
+#navicon{
+  font-size:4vw;
+  cursor:pointer;
+  margin-left: 10px;
+  -webkit-margin-top-collapse: collapse;
+}

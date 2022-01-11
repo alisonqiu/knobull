@@ -108,3 +108,10 @@ h1, h2, h3, h4, h5, h6 {
 .bg-w{
   background-color: #ffffff;
 }
+
+#navicon{
+  font-size:4vw;
+  cursor:pointer;
+  margin-left: 10px;
+  -webkit-margin-top-collapse: collapse;
+}
